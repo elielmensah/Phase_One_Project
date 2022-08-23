@@ -17,11 +17,11 @@ main {
     margin: auto;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
-h1{
+h1 {
     font-family: 'Big Shoulders Display', sans-serif;
     font-size: 70px;
     line-height: 60px;
@@ -30,7 +30,7 @@ h1{
     text-transform: uppercase;
 }
 
-h2{
+h2 {
     font-family: 'Big Shoulders Display', sans-serif;
     font-size: 36px;
     line-height: 36px;
@@ -40,7 +40,7 @@ h2{
 
 }
 
-p{
+p {
     font-family: 'Outfit', sans-serif;
     font-size: 22px;
     line-height: 32px;
@@ -49,13 +49,13 @@ p{
 
 }
 
-.back-home{
+.back-home {
     position: absolute;
     top: 0px;
     left: 156px;
 }
 
-.middle{
+.middle {
     position: absolute;
     left: 0px;
     right: 0px;
@@ -64,14 +64,14 @@ p{
     height: 548px;
 }
 
-.m-inner{
+.m-inner {
     position: absolute;
     top: 104px;
     left: 165px;
     right: 165px;
 }
 
-.m-inner h1{
+.m-inner h1 {
     position: absolute;
     color: #ffffff;
     left: 0px;
@@ -84,13 +84,13 @@ p{
     right: 95px;
 }
 
-.inner-2 h2{
+.inner-2 h2 {
     left: 570px;
     right: 190px;
     color: #d5966c;
 }
 
-.inner-2 p{
+.inner-2 p {
     position: absolute;
     color: #ffffff;
     top: 60px;
@@ -98,7 +98,7 @@ p{
     opacity: 0.9;
 }
 
-.gal P{
+.gal P {
     position: absolute;
     left: 570px;
     top: 188px;
@@ -106,7 +106,7 @@ p{
     opacity: 0.9;
 }
 
-.bottom{
+.bottom {
     position: absolute;
     top: 1096px;
     left: 0px;
@@ -114,22 +114,22 @@ p{
     background: #d5966c;
 }
 
-.b-inner{
-     background: #d5966c;
+.b-inner {
+    background: #d5966c;
 }
 
-.b-inner-2{
+.b-inner-2 {
     padding-top: 80px;
     padding-left: 165px;
     padding-right: 165px;
     padding-bottom: 80px;
 }
 
-.b-inner-2 h1{
+.b-inner-2 h1 {
     color: #151515;
 }
 
-.bottom p{
+.bottom p {
     position: absolute;
     color: #151515;
     top: 130px;
@@ -137,14 +137,14 @@ p{
     right: 200px;
 }
 
-.social{
+.social {
     position: absolute;
     top: 1228px;
     left: 1175px;
     letter-spacing: 10px;
 }
 
-.icons svg *{
+.icons svg * {
     fill: #151515;
 }
 
@@ -153,95 +153,95 @@ p{
 /* @tablet location */
 
 @media only screen and (max-width: 768px) {
-    main{
+    main {
         position: relative;
         max-width: 768px;
         margin: auto;
     }
 
-    img{
+    img {
         max-width: 100%;
     }
 
-    h1{
+    h1 {
         font-size: 55px;
         line-height: 45px;
     }
 
-    h2{
+    h2 {
         font-size: 32px;
         line-height: 32px;
     }
 
-    p{
+    p {
         font-size: 15px;
         line-height: 20px;
     }
 
-    .back-home{
-       width: 25%;
+    .back-home {
+        width: 25%;
     }
 
-    .middle{
+    .middle {
         left: 0px;
         right: 0px;
         top: 320px;
         height: 436px;
     }
 
-    .m-inner{
+    .m-inner {
         left: 39px;
         right: 40px;
         top: 88px;
     }
 
-    .m-inner h1{
+    .m-inner h1 {
         left: 0px;
         right: 766px;
     }
 
-    .inner-2{
+    .inner-2 {
         left: 291px;
         right: 0px;
     }
 
-    .inner-2 h2{
+    .inner-2 h2 {
         left: 0px;
         right: 48px;
     }
 
-    .inner-2 p{
+    .inner-2 p {
         left: 0px;
         right: 60px;
         top: 50px;
     }
 
-    .gal p{
+    .gal p {
         top: 156px;
         left: 291px;
         right: 50px;
     }
 
-    .bottom{
+    .bottom {
         top: 756px;
         left: 0px;
         right: 0px;
     }
 
-    .b-inner-2{
+    .b-inner-2 {
         padding-top: 56px;
         padding-left: 39px;
         padding-right: 40px;
         padding-bottom: 56px;
     }
 
-    .bottom p{
+    .bottom p {
         top: 56px;
         left: 330px;
         right: 200px;
     }
 
-    .social{
+    .social {
         left: 628px;
         top: 850px;
         width: 15%;
@@ -251,65 +251,65 @@ p{
 /* @mobile location */
 
 @media only screen and (max-width: 375px) {
-    main{
+    main {
         position: relative;
         max-width: 375px;
         margin: auto;
     }
 
-    h1{
+    h1 {
         font-size: 50px;
         line-height: 45px;
     }
 
-    h2{
+    h2 {
         font-size: 30px;
         line-height: 32px;
     }
 
-    p{
+    p {
         font-size: 18px;
         line-height: 28px;
     }
 
-    .back-home{
+    .back-home {
         width: 40%;
     }
 
-    .image-map{
+    .image-map {
         width: 700px;
     }
 
-    .middle{
+    .middle {
         top: 292px;
         left: 0px;
         right: 0px;
         width: 700px;
     }
 
-    .m-inner{
+    .m-inner {
         top: 30px;
         left: 20px;
     }
 
-    .m-inner h1{
+    .m-inner h1 {
         top: 0px;
         left: 0px;
         right: 4.97%;
     }
 
-    .inner-2{
+    .inner-2 {
         left: 0px;
         top: 70px;
     }
 
-    .gal p{
+    .gal p {
         left: 0px;
         top: 230px;
         right: 60px;
     }
 
-    .bottom{
+    .bottom {
         top: 729px;
         left: 0px;
         right: 0px;
@@ -317,12 +317,12 @@ p{
         height: 330px;
     }
 
-    .bottom p{
+    .bottom p {
         top: 170px;
         left: 39px;
     }
 
-    .social{
+    .social {
         left: 39px;
         top: 1000px;
         width: 35%;
