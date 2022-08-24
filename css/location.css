@@ -49,10 +49,30 @@ p {
 
 }
 
-.back-home {
+.back-location{
     position: absolute;
     top: 0px;
-    left: 156px;
+    left: 212px;
+    background: #151515;
+    padding: 15px;
+}
+
+.back-location h2{
+    color: #ffffff;
+    font-size: 26px;
+    line-height: 24px;
+    letter-spacing: 3px;
+}
+
+svg{
+    position: absolute;
+    top: 0px;
+    left: 167px;
+    background: #d5966c;
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 30px;
+    height: 39px;
 }
 
 .middle {
