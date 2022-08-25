@@ -114,6 +114,7 @@ svg{
     position: absolute;
     color: #ffffff;
     top: 60px;
+    left: 0px;
     right: 60px;
     opacity: 0.9;
 }
@@ -157,15 +158,31 @@ svg{
     right: 200px;
 }
 
-.social {
+.icons svg *{
     position: absolute;
-    top: 1228px;
-    left: 1175px;
-    letter-spacing: 10px;
+    display: block;
+    fill: #151515;
 }
 
-.icons svg * {
-    fill: #151515;
+.facebook{
+    position: absolute;
+    left: 1150px;
+    top: 100px;
+    padding: 0px;
+}
+
+.instagram{
+    position: absolute;
+    left: 1200px;
+    top: 100px;
+    padding: 0px;
+}
+
+.twitter{
+    position: absolute;
+    left: 1250px;
+    top: 100px;
+    padding: 0px;
 }
 
 /* This section contains styles  for for desktop-active, tablet and mobile location */
@@ -198,7 +215,7 @@ svg{
         line-height: 20px;
     }
 
-    .back-home {
+    .back-location {
         width: 25%;
     }
 
@@ -261,11 +278,29 @@ svg{
         right: 200px;
     }
 
-    .social {
-        left: 628px;
-        top: 850px;
-        width: 15%;
+    .icons svg *{
+        position: absolute;
     }
+
+    .facebook{
+        position: absolute;
+        left: 600px;
+        top: 56px;
+    }
+
+    .instagram{
+        position: absolute;
+        left: 650px;
+        top: 56px;
+    }
+
+    .twitter{
+        position: absolute;
+        left: 700px;
+        top: 56px;
+    }
+
+    
 }
 
 /* @mobile location */
@@ -292,8 +327,8 @@ svg{
         line-height: 28px;
     }
 
-    .back-home {
-        width: 40%;
+    .back-location {
+        width: 50%;
     }
 
     .image-map {
@@ -342,9 +377,21 @@ svg{
         left: 39px;
     }
 
-    .social {
+    .facebook{
+        position: absolute;
+        top: 280px;
         left: 39px;
-        top: 1000px;
-        width: 35%;
+    }
+
+    .instagram{
+        position: absolute;
+        top: 280px;
+        left: 89px;
+    }
+
+    .twitter{
+        position: absolute;
+        top: 280px;
+        left: 139px;
     }
 }
