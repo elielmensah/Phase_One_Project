@@ -18,7 +18,7 @@ Phase One Project
 
 #Overview
 
-#The challenge - I to build a modern art gallery form the scratch using HTML and CSS.
+#The challenge - Is to build a modern art gallery form the scratch using HTML and CSS.
 
 #Project Objective
 This project objective was to biuld out an art gallery using html and css and to make the website look as close to the designs as possible.
