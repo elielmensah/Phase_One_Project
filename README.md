@@ -1,4 +1,4 @@
-A project completed by Eliel Mensah as part of thhe requirement fot the GTP by AmaliTech.
+A project completed by Eliel Mensah as part of the requirement for the GTP by AmaliTech.
 Project-Title- Art Gallery Website
 Phase One Project
 
