@@ -1,4 +1,4 @@
-A project completed by Eliel Mensah as part of thhe requirement fot the GTP by AmaliTech.
+A project completed by Eliel Mensah as part of the requirement for the GTP by AmaliTech.
 Project-Title- Art Gallery Website
 Phase One Project
 
@@ -18,7 +18,7 @@ Phase One Project
 
 #Overview
 
-#The challenge - I to build a modern art gallery form the scratch using HTML and CSS.
+#The challenge - Is to build a modern art gallery form the scratch using HTML and CSS.
 
 #Project Objective
 This project objective was to biuld out an art gallery using html and css and to make the website look as close to the designs as possible.
@@ -34,7 +34,8 @@ live server - http://127.0.0.1:5500/index.html
 -Semantic HTML-5 markup
 -CSS-3 custom properties
 
-###What i learned
+###What i learned - 
+
 This project has really equiped and boasted my knowledge in frontend web development.
 During the coding of the structure, that is the HTML, i learned how important it is to structure well.
 When i started to write the css i realised i needed to re-write the HTML again. This really helped me understand the concept and principles behind 
