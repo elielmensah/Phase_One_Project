@@ -18,7 +18,9 @@ body {
     position: relative;
     max-width: 1440px;
     margin: auto;
-    display: grid;grid-template-columns: 1fr 3fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5 2fr);
 
 }
 
@@ -131,17 +133,26 @@ p{
 #grid-1{
     position: absolute;
     left: 500px;
+    background: url(../assets/desktop/image-grid-1.jpg);
+    width: 635px;
+    height: 400px;
 }
 
 #grid-2{
     position: absolute;
     top: 430px;
+    background: url(../assets/desktop/image-grid-2.jpg);
+    width: 635px;
+    height: 720px;
 }
 
 #grid-3{
     position: absolute;
     top: 430px;
     left: 690px;
+    background: url(../assets/desktop/image-grid-3.jpg);
+    width: 445px;
+    height: 313px;
 }
 
 #content-2--text-2{
@@ -213,26 +224,59 @@ p{
     opacity: 0.5;
 }
 
-#icons{
-    margin-left: 978px;
-    letter-spacing: 15px;
+#facebook{
+    position: absolute;
+    background: url(../assets/icon-facebook.svg);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 40px;
+    left: 1140px;
+}
+
+#instagram{
+    position: absolute;
+    background: url(../assets/icon-instagram.svg);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 40px;
+    left: 1180px;
+}
+
+#twitter{
+    position: absolute;
+    background: url(../assets/icon-twitter.svg);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 40px;
+    left: 1220px;
 }
 
 #facebook:hover{
     cursor: pointer;
-    background-color: #D5966C;
+    color: #D5966C;
 }
 
 /* Media queries for the following screens, desktop, tablet and mobile */
 
-/* @media query for desktop and min-width of 1020px upwards */
+/* @media query for mobile */
 
-@media only screen and (min-width: 1024px) and (max-width: 2560px) {
-    #main-contanier{
+@media only screen and (min-width: 1px) and (max-width: 480px) {
+    #main-container{
         position: relative;
-        width: 100%;
+        width: 480px;
         margin: auto;
-    } 
+    }
+
+    #content-1--blend{
+        display: none;
+    }
+
+    #hero-image{
+        position: absolute;
+        left: 0px;
+        width:480px;
+        height: 550px;
+    }
 }
 
 
