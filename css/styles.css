@@ -12,11 +12,227 @@ body {
     font-family: "Big Shoulders Display, Outfit", sans-serif;
     background-color: #f2f2f2;
 }
-
+ 
+/* desktop */
 #main-container {
     position: relative;
-    max-width: 100%;
+    max-width: 1440px;
     margin: auto;
+    display: grid;grid-template-columns: 1fr 3fr;
+
+}
+
+#content-1{
+    position: absolute;
+    width: 95%;
+    height: 800px;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 96px;
+    line-height: 88px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    font-style: normal;
+    font-weight: 300px;
+}
+
+#hero-image{
+    position: absolute;
+    height: 800px;
+    width: 540px;
+    left: 450px;
+    background: url(../assets/desktop/image-hero.jpg);
+}
+
+#content-1--blend{
+    position: absolute;
+    width: 450px;
+    height: 800px;
+    background-color: #151515;
+}
+
+#content-1 h1{
+    position: absolute;
+    top: 190px;
+    left: 165px;
+    right: 625px;
+}
+
+#content-1 p{
+    position: absolute;
+    color: #444444;
+    right: 0%;
+    left: 925px;
+    top: 190px;
+}
+
+#location-button{
+    position: absolute;
+    background-color: #151515;
+    color: #ffffff;
+    padding: 1em;
+    left: 925px;
+    top: 414px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 800;
+    letter-spacing: 3.63px;
+}
+
+#location-button:hover{
+    background-color: #D5966C;
+}
+
+#icon-arrow-right{
+    position: absolute;
+    background-color: #D5966C;
+    padding: 1.12em;
+    top: 414px;
+    left: 1105px;
+}
+
+#content-2{
+    position: absolute;
+    margin:980px 105px;
+}
+
+#content-2--text{
+    position: absolute;
+    left: 0px;
+    right: 125px;
+}
+
+#content-2--text h1{
+    position: absolute;
+    font-size: 60px;
+    line-height: 60px;
+    color: #151515;
+    padding-top: 30px;
+    right: -300px;
+}
+
+#content-2--text p{
+    position: absolute;
+    color: #444444;
+    right: -400px;
+    padding-top: 200px;
+}
+
+#grid-1{
+    position: absolute;
+    left: 500px;
+}
+
+#grid-2{
+    position: absolute;
+    top: 430px;
+}
+
+#grid-3{
+    position: absolute;
+    top: 430px;
+    left: 690px;
+}
+
+#content-2--text-2{
+    position: absolute;
+    background-color: #151515;
+    width: 445px;
+    height: 377px;
+    top:  773px;
+    left: 690px;
+}
+
+#content-2--text-21{
+    position: absolute;
+    padding-top: 65px;
+    padding-left: 48px;
+}
+
+#content-2--text-21 h1{
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+#content-2--text-21 p{
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 32px;
+    padding-top: 32px;
+    opacity: 0.5;
+}
+
+#footer{
+    position: absolute;
+    background-color: #151515;
+    top: 2310px;
+    left: 0px;
+    right: 0px;
+    height: 244px;
+}
+
+#footer-content{
+    position: absolute;
+    padding-top: 80px;
+    padding-left: 165px;
+}
+
+#footer-content--text{
+    position: absolute;
+    padding-left: 0px;
+    padding-right: 280px;
+}
+
+#footer-content--text h1{
+    position: absolute;
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 50px;
+    padding-right: 0px;
+}
+
+#footer-content--text p{
+    position: absolute;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 28px;
+    top: 30px;
+    left: 350px;
+    right: -500px;
+    opacity: 0.5;
+}
+
+#icons{
+    margin-left: 978px;
+    letter-spacing: 15px;
+}
+
+#facebook:hover{
+    cursor: pointer;
+    background-color: #D5966C;
+}
+
+/* Media queries for the following screens, desktop, tablet and mobile */
+
+/* @media query for desktop and min-width of 1020px upwards */
+
+@media only screen and (min-width: 1024px) and (max-width: 2560px) {
+    #main-contanier{
+        position: relative;
+        width: 100%;
+        margin: auto;
+    } 
 }
 
 
