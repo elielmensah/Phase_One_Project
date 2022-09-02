@@ -16,11 +16,10 @@ body {
 /* desktop */
 #main-container {
     position: relative;
-    max-width: 1440px;
+    width: 100%;
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(5 2fr);
+    grid-template-columns: 1fr 3fr;
 
 }
 
@@ -100,7 +99,7 @@ p{
     background-color: #D5966C;
     padding: 1.12em;
     top: 414px;
-    left: 1105px;
+    left: 1097px;
 }
 
 #content-2{
@@ -278,6 +277,3 @@ p{
         height: 550px;
     }
 }
-
-
-
