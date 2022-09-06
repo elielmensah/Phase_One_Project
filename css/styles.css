@@ -424,6 +424,157 @@ p{
 }
 
 /* tablet-mode */
-@media screen and (min-width: 500px) and (max-width: 850px){
-
+@media screen and (min-width: 768px) and (max-width: 950px){
+    #contianer{
+        max-width: 100%;
+        position: relative;
+        overflow-x: hidden;
+    }
+    img{
+        width: 100%;
+        display: inline-block;
+    }
+    #content-1--blend{
+        display: none
+    }
+    #hero-image{
+        position: absolute;
+        background-image: url(../assets/tablet/image-hero.jpg);
+        background-repeat: no-repeat;
+        left: 0%;
+    }
+    #content-1{
+        position: absolute;
+    }
+    #content-1 h1{
+        position: absolute;
+        font-size: 70px;
+        line-height: 65px;
+        left: 48%;
+        right: 10%;
+    }
+    #content-1 p{
+        position: absolute;
+        font-size: 20px;
+        line-height: 30px;
+        left: 48%;
+        top: 355px;
+        right: 5%;
+    }
+    #location-button{
+        position: absolute;
+        padding: 1em;
+        left: 48%;
+        top: 510px;
+    }
+    #icon-arrow-right{
+        position: absolute;
+        padding: 1.12em;
+        top: 510px;
+        left: 71%;
+    }
+    #content-2{
+        position: absolute;
+        margin-top: 920px;
+        margin-left: 40px;
+    }
+    #content-2--text{
+        position: absolute;
+        left: 0px;
+        right: 150px;
+    }
+    #content-2--text h1{
+        position: absolute;
+        font-size: 50px;
+        line-height: 45px;
+        right: -200px;
+    }
+    #content-2--text p{
+        position: absolute;
+        font-size: 18px;
+        line-height: 28px;
+        right: -300px;
+    }
+    #grid-1{
+        position: absolute;
+        background-image: url(../assets/tablet/image-grid-1.jpg);
+        background-repeat: no-repeat;
+        left: 310px;
+    }
+    #grid-2{
+        position: absolute;
+        background-image: url(../assets/tablet/image-grid-2.jpg);
+        background-repeat: no-repeat;
+        left: 0px;
+    }
+    #grid-3{
+        position: absolute;
+        background-image: url(../assets/tablet/image-grid-3.jpg);
+        background-repeat: no-repeat;
+        left: 425px;
+    }
+    #content-2--text-2{
+        position: absolute;
+        width: 280px;
+        height: 380px;
+        left: 425px;
+    }
+    #content-2--text-21{
+        position: absolute;
+        padding-top: 85px;
+        padding-left: 29px;
+    }
+    #content-2--text-21 h1{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    #content-2--text-21 p{
+        position: absolute;
+        font-size: 18px;
+        line-height: 28px;
+        padding-top: 20px;
+        padding-right: 30px;
+        opacity: 0.9;
+    }
+    #footer{
+        position: absolute;
+        top: 2298px;
+        height: 316px;
+    }
+    #footer-content{
+        position: absolute;
+        padding-left: 39px;
+        padding-top: 52px;
+    }
+    #footer-content h1{
+        position: absolute;
+        font-size: 40px;
+        line-height: 40px;
+        padding-right: 92px;
+    }
+    #footer-content p{
+        position: absolute;
+        font-size: 18px;
+        line-height: 28px;
+        left: 250px;
+        right: -290px;
+    }
+    #facebook{
+        position: absolute;
+        background-repeat: no-repeat;
+        left: 650px;
+        top: 92px;
+    }
+    #instagram{
+        position: absolute;
+        background-repeat: no-repeat;
+        left: 690px;
+        top: 92px;
+    }
+    #twitter{
+        position: absolute;
+        background-repeat: no-repeat;
+        left: 730px;
+        top: 92px;
+    }
 }
