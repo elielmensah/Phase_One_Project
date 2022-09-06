@@ -74,6 +74,11 @@ p{
     top: 190px;
     left: 165px;
     right: 625px;
+    mix-blend-mode: overlay,;
+    color: #151515;
+}
+span{
+    color: #ffffff;
 }
 
 #content-1 p{
@@ -476,7 +481,7 @@ p{
     #content-2{
         position: absolute;
         margin-top: 920px;
-        margin-left: 40px;
+        margin-left: 45px;
     }
     #content-2--text{
         position: absolute;
