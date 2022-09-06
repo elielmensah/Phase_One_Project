@@ -266,9 +266,9 @@ p{
 
 /* @mobile-mode */
 
-@media screen and (min-width: 310px) and (max-width: 500px){
+@media screen and (min-width: 300px) and (max-width: 500px){
     #container{
-        width: 375px;
+        max-width: 375px;
         position: relative;
         overflow-x: hidden;
     }
@@ -421,4 +421,9 @@ p{
         left: 112px;
         top: 290px;
     }
+}
+
+/* tablet-mode */
+@media screen and (min-width: 500px) and (max-width: 850px){
+
 }
