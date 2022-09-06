@@ -74,6 +74,7 @@ p{
     top: 190px;
     left: 165px;
     right: 625px;
+    color: #ffffff;
 }
 
 #content-1 p{
@@ -268,7 +269,7 @@ p{
 
 @media screen and (min-width: 310px) and (max-width: 500px){
     #container{
-        max-width: 375px;
+        width: 375px;
         position: relative;
         overflow-x: hidden;
     }
@@ -283,7 +284,7 @@ p{
         position: absolute;
         background-image: url(../assets/mobile/image-hero.jpg);
         background-repeat: no-repeat;
-        width: 490px;
+        width: 375px;
         left: 0%;
     }
     #content-1 h1{
