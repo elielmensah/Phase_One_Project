@@ -270,8 +270,10 @@ p{
     #container{
         max-width: 375px;
         position: relative;
+        overflow-x: hidden;
     }
     img{
+        width: 100%;
         display: block;
     }
     #content-1--blend{
