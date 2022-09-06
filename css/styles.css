@@ -281,6 +281,9 @@ span{
         width: 100%;
         display: block;
     }
+    span{
+        color: #151515;
+    }
     #content-1--blend{
         display: none;
     }
@@ -438,6 +441,9 @@ span{
     img{
         width: 100%;
         display: inline-block;
+    }
+    span{
+        color: #151515;
     }
     #content-1--blend{
         display: none
@@ -635,6 +641,9 @@ span{
     img{
         width: 100%;
         display: block;
+    }
+    span{
+        color: #151515;
     }
     #hero-image{
         position: absolute;
