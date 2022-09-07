@@ -88,6 +88,7 @@ span{
     right: 0%;
     left: 925px;
     top: 190px;
+    width: 30%;
 }
 
 #location-button{
@@ -319,6 +320,7 @@ span{
         left: 4%;
         top: 400px;
         right: 5%;
+        width: 90%;
     }
     #location-button{
         position: absolute;
@@ -481,6 +483,7 @@ span{
         left: 48%;
         top: 355px;
         right: 5%;
+        width: 50%;
     }
     #location-button{
         position: absolute;
@@ -621,8 +624,9 @@ span{
         position: absolute;
         left: 900px;
         right: 30px;
-        font-size: 25px;
+        font-size: 30px;
         line-height: 35px;
+        width: 35%;
     }
     #location-button{
         position: absolute;
@@ -668,7 +672,7 @@ span{
         font-size: 40px;
         line-height: 40px;
         left: 10px;
-        right: 78px;
+        right: 68px;
         top: 260px;
     }
     #content-1 p{
@@ -676,19 +680,20 @@ span{
         font-size: 15px;
         line-height: 24px;
         left: 10px;
-        top: 350px;
+        top: 360px;
+        width: 89%;
     }
     #location-button{
         position: absolute;
         padding: 0.3em;
         left: 10px;
-        top: 470px;
+        top: 510px;
     }
     #icon-arrow-right{
         position: absolute;
         padding: 0.36em;
         left: 162px;
-        top: 470px;
+        top: 510px;
     }
     #grid-1{
         position: absolute;
