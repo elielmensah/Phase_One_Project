@@ -67,13 +67,14 @@ p{
     width: 450px;
     height: 800px;
     background-color: #151515;
+    background-blend-mode: overlay;
 }
 
 #content-1 h1{
     position: absolute;
     top: 190px;
     left: 165px;
-    right: 625px;
+    right: 630px;
     mix-blend-mode: overlay,;
     color: #151515;
 }
@@ -591,7 +592,7 @@ span{
 }
 
 /* Media query for desktop-active with min width 1440px */
-@media screen and (min-width: 1330px){
+@media screen and (min-width: 1440px){
     #container{
         width: 1440px;
         position: relative;
@@ -629,6 +630,7 @@ span{
     }
 }
 
+/* For screens less then 290px */
 @media screen and (max-width: 290px){
     #container{
         position: absolute;
