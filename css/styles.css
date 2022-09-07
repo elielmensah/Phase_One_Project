@@ -67,7 +67,6 @@ p{
     width: 450px;
     height: 800px;
     background-color: #151515;
-    background-blend-mode: overlay;
 }
 
 #content-1 h1{
@@ -75,8 +74,9 @@ p{
     top: 190px;
     left: 165px;
     right: 630px;
-    mix-blend-mode: overlay,;
-    color: #151515;
+    mix-blend-mode: difference;
+    color: #fff;
+    z-index: 1;
 }
 span{
     color: #ffffff;
@@ -116,6 +116,10 @@ span{
     padding: 1.12em;
     top: 414px;
     left: 1097px;
+}
+
+#icon-arrow-right:hover{
+    cursor: pointer;
 }
 
 #content-2{
@@ -206,12 +210,14 @@ span{
     left: 0px;
     right: 0px;
     height: 244px;
+    width: 100%;
 }
 
 #footer-content{
     position: absolute;
     padding-top: 80px;
     padding-left: 165px;
+    width: 100%;
 }
 
 #footer-content--text{
