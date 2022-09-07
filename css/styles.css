@@ -273,10 +273,12 @@ span{
     left: 1220px;
 }
 
-#facebook:hover{
+#icon-1:hover{
+    fill: #D5966C;
     cursor: pointer;
-    color: #D5966C;
 }
+
+
 
 /* Media query for all screens in this section */
 
