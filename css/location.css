@@ -198,6 +198,10 @@ img{
     left: 1250px;
 }
 
+.icon-2:hover{
+    cursor: pointer;
+    fill: #ffffff;
+
 /* This section contains styles  for for desktop-active, tablet and mobile location */
 
 @media screen and (min-width:310px) and (max-width: 430px){
